@@ -4,7 +4,12 @@
   "description": "Transaction Processing Manager",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
   },
   "devDependencies": {},
   "scripts": {
